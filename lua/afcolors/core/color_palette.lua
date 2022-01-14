@@ -12,15 +12,17 @@ local color_palette = {
 	sky = "#89DCEB", -- Sky
 	teal = "#B5E8E0", -- Teal
 	lavender = "#C9CBFF", -- Lavender
-	white = "#D9E0EE", -- White
-	gray2 = "#C3BAC6", -- Gray2
-	gray1 = "#988BA2", -- Gray1
-	gray0 = "#6E6C7E", -- Gray0
-	black4 = "#575268", -- Black4
-	black3 = "#302D41", -- Black3
-	black2 = "#1E1D2F", -- Black2
-	black1 = "#1A1823", -- Black1
-	black0 = "#131020", -- Black0
+	white = "#c5c8c9",
+  black0 = "#0d1416",
+  black1 = "#111719",
+  black2 = "#131a1c",
+  black3 = "#192022",
+  black4 = "#202729",
+  gray0 = "#363D3E",
+  gray1 = "#4A5051",
+  gray2 = "#5C6262",
 }
+
+
 
 return color_palette
