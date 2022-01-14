@@ -3,7 +3,7 @@ local M = {}
 function M.get(cp)
 	return {
 		NvimTreeFolderName = { fg = cp.blue },
-		NvimTreeFolderIcon = { fg = cp.black4 },
+		NvimTreeFolderIcon = { bg = cp.black4 },
 		NvimTreeNormal = { fg = cp.white, bg = cp.black1 },
 		NvimTreeOpenedFolderName = { fg = cp.blue },
 		NvimTreeEmptyFolderName = { fg = cp.blue },
