@@ -11,7 +11,7 @@ function M.get(cp)
 		NvimTreeVertSplit = { fg = cp.black1, bg = cp.black1 },
 		NvimTreeRootFolder = { fg = cp.flamingo, style = "italic,undercurl" },
 		NvimTreeSymlink = { fg = cp.pink },
-		NvimTreeStatuslineNc = { fg = cp.black2, bg = cp.black2 },
+		NvimTreeStatuslineNc = { fg = cp.black1, bg = cp.black1 },
 		NvimTreeGitDirty = { fg = cp.yellow },
 		NvimTreeGitNew = { fg = cp.blue },
 		NvimTreeGitDeleted = { fg = cp.red },
