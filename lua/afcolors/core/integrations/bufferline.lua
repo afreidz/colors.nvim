@@ -2,13 +2,13 @@ local M = {}
 
 function M.get(cp)
 
-	local inactive_bg = cp.black1
+	local inactive_bg = cp.black3
 
 	return {
-		BufferLineFill = { bg = cp.black0 },
+		BufferLineFill = { bg = cp.black3 },
 		BufferLineBackground = { fg = cp.white, bg = inactive_bg }, -- others
 		BufferLineBufferVisible = { fg = cp.black4, bg = inactive_bg },
-		BufferLineBufferSelected = { fg = cp.white, bg = cp.black2, style = "bold,italic" }, -- current
+		BufferLineBufferSelected = { fg = cp.white, bg = cp.black2, style = "italic" }, -- current
 		BufferLineTab = { fg = cp.black4, bg = cp.black2 },
 		BufferLineTabSelected = { fg = cp.red, bg = cp.blue },
 		BufferLineTabClose = { fg = cp.red, bg = inactive_bg },
