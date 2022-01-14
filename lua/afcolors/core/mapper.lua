@@ -28,7 +28,7 @@ local function get_base()
 		lCursor = { fg = cp.black2, bg = cp.white }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
 		CursorIM = { fg = cp.black2, bg = cp.white }, -- like Cursor, but used when in IME mode |CursorIM|
 		CursorColumn = { bg = cp.black1 }, -- Screen-column at the cursor, when 'cursorcolumn' is secp.
-		CursorLine = { bg = cp.black3 }, -- Screen-line at the cursor, when 'cursorline' is secp.  Low-priority if foreground (ctermfg OR guifg) is not secp.
+		CursorLine = { bg = cp.black2 }, -- Screen-line at the cursor, when 'cursorline' is secp.  Low-priority if foreground (ctermfg OR guifg) is not secp.
 		Directory = { fg = cp.blue }, -- directory names (and other special names in listings)
 		EndOfBuffer = { fg = cp.black2 }, -- filler lines (~) after the end of the buffer.  By default, this is highlighted like |hl-NonText|.
 		ErrorMsg = { fg = cp.red, style = "bold,italic" }, -- error messages on the command line
@@ -39,7 +39,7 @@ local function get_base()
 		SignColumnSB = { bg = cp.black0, fg = cp.black4 }, -- column where |signs| are displayed
 		Substitute = { bg = cp.black4, fg = cp.pink }, -- |:substitute| replacement text highlighting
 		LineNr = { fg = cp.black4, bg = cp.black2 }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is secp.
-		CursorLineNr = { fg = cp.green }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line. highlights the number in numberline.
+		CursorLineNr = { fg = cp.white }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line. highlights the number in numberline.
 		MatchParen = { fg = cp.peach, style = "bold" }, -- The character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
 		ModeMsg = { fg = cp.white, style = "bold" }, -- 'showmode' message (e.g., "-- INSERT -- ")
 		MsgArea = { fg = cp.white }, -- Area for messages and cmdline
