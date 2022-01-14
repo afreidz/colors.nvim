@@ -1,4 +1,4 @@
-local cp = require("afcp.core.color_palette")
+local cp = require("afcolors.core.color_palette")
 local theme = {}
 
 theme.normal = {
