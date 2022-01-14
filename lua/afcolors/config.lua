@@ -13,7 +13,6 @@ config.options = {
 	},
 	integrations = {
 		cmp = false,
-		hop = false,
 		lsp = false,
     notify = false,
 		markdown = false,
