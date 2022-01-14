@@ -14,6 +14,7 @@ config.options = {
 	integrations = {
 		cmp = false,
 		hop = false,
+		lsp = false,
     notify = false,
 		markdown = false,
 		nvimtree = false,
@@ -22,7 +23,6 @@ config.options = {
 		gitgutter = false,
 		bufferline = false,
 		treesitter = false,
-		native_lsp = false,
 		indent_blankline = false,
 	},
 }

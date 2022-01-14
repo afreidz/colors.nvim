@@ -1,10 +1,6 @@
 local M = {}
 
 function M.get(cp)
-
-	local virtual_text = cnf.integrations.native_lsp.virtual_text
-	local underlines = cnf.integrations.native_lsp.underlines
-
 	local error = cp.red
 	local warning = cp.yellow
 	local info = cp.sky
