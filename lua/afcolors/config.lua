@@ -14,7 +14,6 @@ config.options = {
 	integrations = {
 		cmp = false,
 		hop = false,
-		fern = false,
     notify = false,
 		markdown = false,
 		nvimtree = false,
