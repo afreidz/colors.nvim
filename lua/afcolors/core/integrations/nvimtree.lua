@@ -1,14 +1,6 @@
 local M = {}
 
 function M.get(cp)
-	local config = require("catppuccin.config").options
-
-	local root_dir_color = cp.pink
-
-	if config.integrations.nvimtree.show_root then
-		root_dir_color = cp.blue
-	end
-
 	return {
 		NvimTreeFolderName = { fg = cp.blue },
 		NvimTreeFolderIcon = { fg = cp.blue },
