@@ -5,11 +5,11 @@ config.options = {
 	transparent_background = false,
 	term_colors = false,
 	styles = {
-		comments = "italic",
+		comments = "NONE",
 		functions = "italic",
 		keywords = "italic",
 		strings = "NONE",
-		variables = "italic",
+		variables = "NONE",
 	},
 	integrations = {
 		cmp = false,
