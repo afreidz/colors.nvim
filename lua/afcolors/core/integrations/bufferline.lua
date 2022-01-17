@@ -10,7 +10,7 @@ function M.get(cp)
 		BufferLineTabClose = { fg = cp.red, bg = cp.black3 },
 		BufferLineIndicatorSelected = { fg = cp.peach, bg = cp.black2 },
     BufferLineModified = { bg = cp.black3 },
-    BufferLineModifiedVisible = { bg = cp.black2 }
+    BufferLineModifiedVisible = { bg = cp.black2 },
 		-- separators
 		BufferLineSeparator = { fg = cp.black3, bg = cp.black3 },
 		BufferLineSeparatorVisible = { fg = cp.black3, bg = cp.black3 },
