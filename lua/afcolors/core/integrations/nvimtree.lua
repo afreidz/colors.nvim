@@ -18,22 +18,7 @@ function M.get(cp)
 		NvimTreeGitDeleted = { fg = cp.red },
 		NvimTreeSpecialFile = { fg = cp.sky },
 		NvimTreeImageFile = { fg = cp.white },
-		NvimTreeOpenedFile = { fg = cp.pink },
-    NvimTreeLicenseIcon = { fg = cp.gray0 },
-    NvimTreeYamlIcon = { fg = cp.gray0 },
-    NvimTreeTomlIcon = { fg = cp.gray0 },
-    NvimTreeGitignoreIcon = { fg = cp.gray0 },
-    NvimTreeJsonIcon = { fg = cp.gray0 },
-    NvimTreeLuaIcon = { fg = cp.gray0 },
-    NvimTreePythonIcon = { fg = cp.gray0 },
-    NvimTreeShellIcon = { fg = cp.gray0 },
-    NvimTreeJavascriptIcon = { fg = cp.gray0 },
-    NvimTreeCIcon = { fg = cp.gray0 },
-    NvimTreeReactIcon = { fg = cp.gray0 },
-    NvimTreeHtmlIcon = { fg = cp.gray0 },
-    NvimTreeRustIcon = { fg = cp.gray0 },
-    NvimTreeVimIcon = { fg = cp.gray0 },
-    NvimTreeTypescriptIcon = { fg = cp.gray0 },
+		NvimTreeOpenedFile = { fg = cp.pink }, 
 	}
 end
 
