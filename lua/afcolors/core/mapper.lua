@@ -49,8 +49,8 @@ local function get_base()
 		Normal = { fg = cp.white, bg = cnf.transparent_background and cp.none or cp.black2 }, -- normal text
 		NormalNC = { fg = cp.white, bg = cnf.transparent_background and cp.none or cp.black2 }, -- normal text in non-current windows
 		NormalSB = { fg = cp.white, bg = cp.black0 }, -- normal text in non-current windows
-		NormalFloat = { fg = cp.white, bg = cp.black1 }, -- Normal text in floating windows.
-		FloatBorder = { fg = cp.blue },
+		NormalFloat = { fg = cp.white, bg = cp.black3 }, -- Normal text in floating windows.
+		FloatBorder = { fg = cp.black3, bg = cp.black3 },
 		Pmenu = { bg = cp.black3, fg = cp.gray2 }, -- Popup menu: normal item.
 		PmenuSel = { fg = cp.white, bg = cp.black4, style = "bold" }, -- Popup menu: selected item.
 		PmenuSbar = { bg = cp.black4 }, -- Popup menu: scrollbar.
