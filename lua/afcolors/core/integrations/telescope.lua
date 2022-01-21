@@ -8,7 +8,7 @@ function M.get(cp)
     TelescopeBorder = { bg = cp.black3, fg = cp.black3 },
     TelescopePromptBorder = { bg = cp.black4, fg = cp.black4 },
     TelescopePreviewBorder = { bg = cp.black1, fg = cp.black1 },
-    TelescopePromptTitle = { bg = cp.black3, fg = cp.red, style = 'italic' },
+    TelescopePromptTitle = { bg = cp.black4, fg = cp.red, style = 'italic' },
     TelescopePreviewTitle = { bg = cp.black1, fg = cp.green, style = 'italic' },
 	}
 end
