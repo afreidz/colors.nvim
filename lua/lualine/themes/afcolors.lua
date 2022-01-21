@@ -6,7 +6,7 @@ theme.normal = {
   b = { bg = cp.black2, fg = cp.blue },
   c = { bg = cp.black2, fg = cp.blue },
   x = { bg = cp.black2, fg = cp.black4 },
-  y = { bg = cp.black2, fg = cp.black4 },
+  y = { bg = cp.black2, fg = cp.flamingo },
   z = { bg = cp.black2, fg = cp.black4 },
 }
 
@@ -15,7 +15,7 @@ theme.insert = {
   b = { bg = cp.black2, fg = cp.teal },
   c = { bg = cp.black2, fg = cp.teal },
   x = { bg = cp.black2, fg = cp.black4 },
-  y = { bg = cp.black2, fg = cp.black4 },
+  y = { bg = cp.black2, fg = cp.flamingo },
   z = { bg = cp.black2, fg = cp.black4 },
 }
 
@@ -24,7 +24,7 @@ theme.command = {
   b = { bg = cp.black2, fg = cp.peach },
   c = { bg = cp.black2, fg = cp.peach },
   x = { bg = cp.black2, fg = cp.black4 },
-  y = { bg = cp.black2, fg = cp.black4 },
+  y = { bg = cp.black2, fg = cp.flamingo },
   z = { bg = cp.black2, fg = cp.black4 },
 }
 
@@ -33,7 +33,7 @@ theme.visual = {
   b = { bg = cp.black2, fg = cp.magenta },
   c = { bg = cp.black2, fg = cp.magenta },
   x = { bg = cp.black2, fg = cp.black4 },
-  y = { bg = cp.black2, fg = cp.black4 },
+  y = { bg = cp.black2, fg = cp.flamingo },
   z = { bg = cp.black2, fg = cp.black4 },
 }
 
@@ -42,7 +42,7 @@ theme.replace = {
   b = { bg = cp.black2, fg = cp.red },
   c = { bg = cp.black2, fg = cp.red },
   x = { bg = cp.black2, fg = cp.black4 },
-  y = { bg = cp.black2, fg = cp.black4 },
+  y = { bg = cp.black2, fg = cp.flamingo },
   z = { bg = cp.black2, fg = cp.black4 },
 }
 
