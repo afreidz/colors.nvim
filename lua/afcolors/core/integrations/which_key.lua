@@ -7,7 +7,7 @@ function M.get(cp)
 		WhichKeyDesc = { fg = cp.pink },
 		WhichKeySeperator = { fg = cp.gray0 },
 		WhichKeySeparator = { fg = cp.gray0 },
-		WhichKeyFloat = { bg = cp.black2 },
+		WhichKeyFloat = { bg = cp.black3 },
 		WhichKeyValue = { fg = cp.gray0 },
 	}
 end
