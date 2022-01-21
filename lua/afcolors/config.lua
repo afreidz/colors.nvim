@@ -7,7 +7,7 @@ config.options = {
 	styles = {
 		comments = "NONE",
 		functions = "italic",
-		keywords = "italic",
+		keywords = "NONE",
 		strings = "NONE",
 		variables = "NONE",
 	},
