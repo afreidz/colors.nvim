@@ -2,10 +2,14 @@ local M = {}
 
 function M.get(cp)
 	return {
-		TelescopeBorder = { fg = cp.blue },
-		TelescopeSelectionCaret = { fg = cp.flamingo },
-		TelescopeSelection = { fg = cp.white, bg = cp.black3, style = "bold" },
-		TelescopeMatching = { fg = cp.blue },
+    TelescopeNormal = { bg = cp.black2 },
+    TelescopePromptNormal = { bg = cp.black3 },
+		TelescopePreviewNormal = { bg = cp.black1 },
+    TelescopeBorder = { bg = cp.black2, fg = cp.black2 },
+    TelescopePromptBorder = { bg = cp.black3, fg = cp.black3 },
+    TelescopePreviewBorder = { bg = cp.black1, fg = cp.black1 },
+    TelescopePromptTitle = { bg = cp.black3, fg = cp.red, style = 'italic' },
+    TelescopePreviewTitle = { bg = cp.black1, fg = cp.green, style = 'italic' },
 	}
 end
 
