@@ -1,5 +1,5 @@
 local M = {}
-locl cmd = vim.cmd
+local cmd = vim.cmd
 
 function M.get(cp)
   
