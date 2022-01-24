@@ -14,7 +14,6 @@ config.options = {
 	integrations = {
 		cmp = false,
 		lsp = false,
-    notify = false,
 		markdown = false,
 		nvimtree = false,
 		which_key = false,
