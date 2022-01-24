@@ -1,17 +1,8 @@
 local M = {}
-local cmd = vim.cmd
 
 function M.get(cp)
   
   local bg = cp.black3
-
-  cmd [[
-    highlight link NotifyERRORBody NormalFloat
-    highlight link NotifyWARNBody NormalFloat
-    highlight link NotifyINFOBody NormalFloat
-    highlight link NotifyDEBUGBody NormalFloat
-    highlight link NotifyTRACEBody NormalFloat
-  ]]
 
 	return {
 		NotifyERRORBorder = { bg = bg, fg = bg },
