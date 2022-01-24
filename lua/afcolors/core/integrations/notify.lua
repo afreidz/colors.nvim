@@ -5,7 +5,7 @@ function M.get(cp)
   local bg = cp.black3
 
 	return {
-		NotifyERRORBorder = { bg = bg, fg = bg },
+		--[[NotifyERRORBorder = { bg = bg, fg = bg },
 		NotifyERRORIcon = { bg = bg, fg = cp.red },
 		NotifyERRORTitle = { bg = bg, fg = cp.red, style = "italic" },
 
@@ -23,7 +23,7 @@ function M.get(cp)
 
     NotifyTRACEBorder = { bg = bg, fg = bg },
 		NotifyTRACEIcon = { bg = bg, fg = cp.rosewater },
-		NotifyTRACETitle = { bg = bg, fg = cp.rosewater, style = "italic" },
+		NotifyTRACETitle = { bg = bg, fg = cp.rosewater, style = "italic" },]]--
   }
 end
 
